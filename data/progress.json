@@ -1,0 +1,27 @@
+{
+    "232-15-945": {
+        "name": "sami",
+        "scores": {
+            "Python Basics": [
+                7,
+                6
+            ]
+        }
+    },
+    "232-15-932": {
+        "name": "artho",
+        "scores": {
+            "Data Structures": [
+                3
+            ]
+        }
+    },
+    "232-15-930": {
+        "name": "tahmid",
+        "scores": {
+            "Python Basics": [
+                5
+            ]
+        }
+    }
+}

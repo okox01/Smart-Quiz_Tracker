@@ -1,0 +1,187 @@
+{
+  "Python Basics": [
+    {
+      "question": "Which of the following is a valid Python variable name?",
+      "options": ["1var", "var_1", "var-1", "var 1"],
+      "answer": "var_1"
+    },
+    {
+      "question": "What is the output of: print(type(5))?",
+      "options": ["<class 'int'>", "<type 'int'>", "int", "number"],
+      "answer": "<class 'int'>"
+    },
+    {
+      "question": "Which of these is used to define a function in Python?",
+      "options": ["func", "def", "function", "define"],
+      "answer": "def"
+    },
+    {
+      "question": "What does '//' operator do?",
+      "options": ["Division", "Floor Division", "Modulo", "Exponent"],
+      "answer": "Floor Division"
+    },
+    {
+      "question": "What is the output of: print(2 ** 3)?",
+      "options": ["6", "8", "9", "5"],
+      "answer": "8"
+    },
+    {
+      "question": "Which keyword is used to create a class in Python?",
+      "options": ["class", "def", "object", "module"],
+      "answer": "class"
+    },
+    {
+      "question": "What is the correct way to comment in Python?",
+      "options": ["// comment", "# comment", "/* comment */", "<!-- comment -->"],
+      "answer": "# comment"
+    }
+  ],
+  "Control Flow": [
+    {
+      "question": "Which statement is used to check a condition in Python?",
+      "options": ["for", "if", "while", "switch"],
+      "answer": "if"
+    },
+    {
+      "question": "What keyword is used to exit a loop prematurely?",
+      "options": ["stop", "exit", "break", "continue"],
+      "answer": "break"
+    },
+    {
+      "question": "Which statement skips the current iteration and continues the loop?",
+      "options": ["skip", "break", "pass", "continue"],
+      "answer": "continue"
+    },
+    {
+      "question": "What does 'pass' do in Python?",
+      "options": ["Exits program", "Does nothing", "Skips iteration", "Breaks loop"],
+      "answer": "Does nothing"
+    },
+    {
+      "question": "Which loop is best when the number of iterations is known?",
+      "options": ["while", "for", "do-while", "loop until"],
+      "answer": "for"
+    },
+    {
+      "question": "Which loop is condition-checked before executing the block?",
+      "options": ["for", "while", "do-while", "repeat-until"],
+      "answer": "while"
+    },
+    {
+      "question": "What is the output?\nfor i in range(3):\n  print(i)",
+      "options": ["1 2 3", "0 1 2", "0 1 2 3", "1 2 3 4"],
+      "answer": "0 1 2"
+    }
+  ],
+  "Data Structures": [
+    {
+      "question": "Which data type is immutable in Python?",
+      "options": ["list", "tuple", "dict", "set"],
+      "answer": "tuple"
+    },
+    {
+      "question": "Which data type allows duplicate elements?",
+      "options": ["set", "dict", "list", "tuple"],
+      "answer": "list"
+    },
+    {
+      "question": "How do you access the first element of a list 'lst'?",
+      "options": ["lst(0)", "lst[0]", "lst.first()", "lst{0}"],
+      "answer": "lst[0]"
+    },
+    {
+      "question": "Which method adds an element to a list?",
+      "options": ["append()", "add()", "insert()", "extend()"],
+      "answer": "append()"
+    },
+    {
+      "question": "How do you get the number of elements in a list 'lst'?",
+      "options": ["lst.count()", "len(lst)", "size(lst)", "lst.length()"],
+      "answer": "len(lst)"
+    },
+    {
+      "question": "Which data type stores key-value pairs?",
+      "options": ["list", "tuple", "dict", "set"],
+      "answer": "dict"
+    },
+    {
+      "question": "How do you remove an element by value from a list?",
+      "options": ["del lst[val]", "lst.remove(val)", "lst.pop(val)", "lst.delete(val)"],
+      "answer": "lst.remove(val)"
+    }
+  ],
+  "Functions & Modules": [
+    {
+      "question": "What keyword is used to define a function?",
+      "options": ["func", "def", "function", "define"],
+      "answer": "def"
+    },
+    {
+      "question": "How do you import a module in Python?",
+      "options": ["import module", "include module", "using module", "require module"],
+      "answer": "import module"
+    },
+    {
+      "question": "How do you call a function 'foo'?",
+      "options": ["call foo()", "foo", "foo()", "call(foo)"],
+      "answer": "foo()"
+    },
+    {
+      "question": "Which keyword returns a value from a function?",
+      "options": ["give", "return", "yield", "output"],
+      "answer": "return"
+    },
+    {
+      "question": "Which function prints to the console?",
+      "options": ["print()", "echo()", "console.log()", "display()"],
+      "answer": "print()"
+    },
+    {
+      "question": "What is a docstring used for?",
+      "options": ["Documentation", "Debugging", "Variable storage", "Function call"],
+      "answer": "Documentation"
+    },
+    {
+      "question": "How do you make a function parameter optional?",
+      "options": ["Use default value", "Use if condition", "Make global", "Use lambda"],
+      "answer": "Use default value"
+    }
+  ],
+  "OOP Concepts": [
+    {
+      "question": "Which keyword is used to define a class?",
+      "options": ["class", "object", "def", "struct"],
+      "answer": "class"
+    },
+    {
+      "question": "Which method is the constructor in Python?",
+      "options": ["__init__", "__start__", "constructor()", "create()"],
+      "answer": "__init__"
+    },
+    {
+      "question": "Which concept allows objects to inherit attributes/methods from another class?",
+      "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "answer": "Inheritance"
+    },
+    {
+      "question": "Which concept restricts access to certain class attributes?",
+      "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
+      "answer": "Encapsulation"
+    },
+    {
+      "question": "What is polymorphism in OOP?",
+      "options": ["Many forms", "Single form", "Data storage", "Function overloading"],
+      "answer": "Many forms"
+    },
+    {
+      "question": "Which keyword is used to refer to the current object?",
+      "options": ["this", "self", "current", "obj"],
+      "answer": "self"
+    },
+    {
+      "question": "Which principle hides implementation details from users?",
+      "options": ["Inheritance", "Polymorphism", "Abstraction", "Encapsulation"],
+      "answer": "Abstraction"
+    }
+  ]
+}
