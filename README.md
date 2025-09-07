@@ -39,10 +39,10 @@ Make sure of using Python 3.8+ version.
 
 Install any dependencies (if needed). For now, only Python standard library modules are used (json, os).
 
-Run the app:
-
+## Run the app:
+```
 python main.py
-
+```
 ---
 
 ## 🎮 How to Use
